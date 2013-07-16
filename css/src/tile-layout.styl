@@ -6,7 +6,9 @@ TileGutter = 10px
     width    : TileSize
     height   : TileSize
 
-    margin   : 0 TileGutter TileGutter 0
+    // if javascript not available use 0 10 10 0
+    //margin   : 0 TileGutter TileGutter 0
+    margin-bottom   : TileGutter
 
     position : relative
     overflow : hidden
@@ -26,3 +28,6 @@ TileGutter = 10px
 .tile.quad.double
     width  : TileSize * 4 + TileGutter * 3
     height : TileSize * 2 + TileGutter
+
+.grid-sizer
+    width: TileGutter

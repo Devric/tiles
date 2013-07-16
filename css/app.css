@@ -409,7 +409,12 @@ table {
     border-spacing: 0;
 }
 
-/* line 228 : /Users/devric/Sites/project/tile/css/src/color.styl */
+/* line 228 : /Users/devric/Sites/project/tile/css/src/layout.styl */
+
+/* line 1 : /Users/devric/Sites/project/tile/css/src/layout.styl */
+#app{margin:0 auto;overflow:hidden}
+
+/* line 4 : /Users/devric/Sites/project/tile/css/src/color.styl */
 
 /* line 17 : /Users/devric/Sites/project/tile/css/src/color.styl */
 .PURPLE{background-color:#a200ff}
@@ -444,24 +449,27 @@ table {
 /* line 47 : /Users/devric/Sites/project/tile/css/src/color.styl */
 .BLACK{background-color:#222}
 
-/* line 3 : /Users/devric/Sites/project/tile/css/src/tile.styl */
+/* line 4 : /Users/devric/Sites/project/tile/css/src/tile.styl */
 
 /* line 1 : /Users/devric/Sites/project/tile/css/src/tile-layout.styl */
 
 /* line 4 : /Users/devric/Sites/project/tile/css/src/tile-layout.styl */
-.tile{display:block;width:180px;height:180px;margin:0 10px 10px 0;position:relative;overflow:hidden;float:left}
+.tile{display:block;width:180px;height:180px;margin-bottom:10px;position:relative;overflow:hidden;float:left}
 
-/* line 15 : /Users/devric/Sites/project/tile/css/src/tile-layout.styl */
+/* line 17 : /Users/devric/Sites/project/tile/css/src/tile-layout.styl */
 .tile.double{width:370px}
 
-/* line 18 : /Users/devric/Sites/project/tile/css/src/tile-layout.styl */
+/* line 20 : /Users/devric/Sites/project/tile/css/src/tile-layout.styl */
 .tile.double.vert{width:180px;height:370px}
 
-/* line 22 : /Users/devric/Sites/project/tile/css/src/tile-layout.styl */
+/* line 24 : /Users/devric/Sites/project/tile/css/src/tile-layout.styl */
 .tile.quad{width:370px;height:370px}
 
-/* line 26 : /Users/devric/Sites/project/tile/css/src/tile-layout.styl */
+/* line 28 : /Users/devric/Sites/project/tile/css/src/tile-layout.styl */
 .tile.quad.double{width:750px;height:370px}
+
+/* line 32 : /Users/devric/Sites/project/tile/css/src/tile-layout.styl */
+.grid-sizer{width:10px}
 
 /* line 3 : /Users/devric/Sites/project/tile/css/src/tile-image.styl */
 
@@ -470,3 +478,11 @@ table {
 
 /* line 7 : /Users/devric/Sites/project/tile/css/src/tile-image.styl */
 .tile.vert img{width:auto;height:100%}
+
+/* line 2 : /Users/devric/Sites/project/tile/css/src/tile-action.styl */
+
+/* line 2 : /Users/devric/Sites/project/tile/css/src/tile-action.styl */
+.tile > a{width:100%;height:100%;padding:0;margin:0;overflow:hidden;display:block;}
+
+/* line 12 : /Users/devric/Sites/project/tile/css/src/tile-action.styl */
+.tile > a:hover{box-shadow:inset 0 0 14px #fff,inset 0 0 2px #000}
