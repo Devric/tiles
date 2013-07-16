@@ -1,0 +1,58 @@
+@import "normalize.css";
+.PURPLE {
+  background-color: #a200ff;
+}
+.MAGENTA {
+  background-color: #ff0097;
+}
+.TEAL {
+  background-color: #00aba9;
+}
+.LIME {
+  background-color: #8cbf26;
+}
+.BROWN {
+  background-color: #a05000;
+}
+.PINK {
+  background-color: #e671b8;
+}
+.ORANGE {
+  background-color: #f09609;
+}
+.BLUE {
+  background-color: #1ba1e2;
+}
+.RED {
+  background-color: #e51400;
+}
+.GREEN {
+  background-color: #393;
+}
+.BLACK {
+  background-color: #222;
+}
+.tile {
+  display: block;
+  width: 180px;
+  height: 180px;
+  margin: 0 10px 10px 0;
+  position: relative;
+  overflow: hidden;
+  float: left;
+}
+.tile.double {
+  width: 370px;
+}
+.tile.double.vert {
+  width: 180px;
+  height: 370px;
+}
+.tile.quad {
+  width: 370px;
+  height: 370px;
+}
+.tile.quad.double {
+  width: 750px;
+  height: 370px;
+}

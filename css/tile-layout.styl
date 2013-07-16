@@ -1,0 +1,28 @@
+TileSize = 180px
+TileGutter = 10px
+
+.tile
+    display  : block
+    width    : TileSize
+    height   : TileSize
+
+    margin   : 0 TileGutter TileGutter 0
+
+    position : relative
+    overflow : hidden
+    float    : left
+
+.tile.double
+    width  : TileSize * 2 + TileGutter
+
+.tile.double.vert
+    width  : TileSize
+    height : TileSize * 2 + TileGutter
+
+.tile.quad
+    width  : TileSize * 2 + TileGutter
+    height : TileSize * 2 + TileGutter
+
+.tile.quad.double
+    width  : TileSize * 4 + TileGutter * 3
+    height : TileSize * 2 + TileGutter
