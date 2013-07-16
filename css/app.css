@@ -479,6 +479,20 @@ table {
 /* line 7 : /Users/devric/Sites/project/tile/css/src/tile-image.styl */
 .tile.vert img{width:auto;height:100%}
 
+/* line 13 : /Users/devric/Sites/project/tile/css/src/tile-image.styl */
+.tile .img-half img{width:50%;height:auto;float:left}
+
+/* line 18 : /Users/devric/Sites/project/tile/css/src/tile-image.styl */
+.title.vert .img-half img{width:auto;height:50%}
+
+/* line 23 : /Users/devric/Sites/project/tile/css/src/tile-image.styl */
+
+/* line 24 : /Users/devric/Sites/project/tile/css/src/tile-image.styl */
+.title.quad.double .img-1-4 div:first-child{width:50%;height:50%}
+
+/* line 27 : /Users/devric/Sites/project/tile/css/src/tile-image.styl */
+.title.quad.double .img-1-4 div{width:25%;height:25%;overflow:hidden;float:left;display:block}
+
 /* line 2 : /Users/devric/Sites/project/tile/css/src/tile-action.styl */
 
 /* line 2 : /Users/devric/Sites/project/tile/css/src/tile-action.styl */
