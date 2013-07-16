@@ -1,0 +1,15 @@
+{
+    "name": "tiles",
+    "version": "0.0.0",
+    "description": "metro tiles",
+    "author": "Devric",
+    "license": "BSD",
+    "devDependencies": {
+        "grunt"                      : "~0.4.1",
+        "grunt-docco"                : "~0.2.0",
+        "grunt-contrib-watch"        : "~0.3.1",
+        "grunt-contrib-stylus"       : "~0.4.1",
+        "grunt-contrib-clean"        : "~0.4.0",
+        "grunt-styleguide"           : "~0.2.4"
+    }
+}
