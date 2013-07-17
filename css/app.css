@@ -449,7 +449,7 @@ table {
 /* line 47 : /Users/devric/Sites/project/tile/css/src/color.styl */
 .BLACK{background-color:#222}
 
-/* line 4 : /Users/devric/Sites/project/tile/css/src/tile.styl */
+/* line 5 : /Users/devric/Sites/project/tile/css/src/tile.styl */
 
 /* line 1 : /Users/devric/Sites/project/tile/css/src/tile-layout.styl */
 
@@ -477,20 +477,20 @@ table {
 .tile img{width:100%;height:auto}
 
 /* line 7 : /Users/devric/Sites/project/tile/css/src/tile-image.styl */
-.tile.vert img{width:auto;height:100%}
+.tile.vert img{width:100%;height:auto;}
 
-/* line 13 : /Users/devric/Sites/project/tile/css/src/tile-image.styl */
+/* line 17 : /Users/devric/Sites/project/tile/css/src/tile-image.styl */
 .tile .img-half img{width:50%;height:auto;float:left}
 
-/* line 18 : /Users/devric/Sites/project/tile/css/src/tile-image.styl */
-.title.vert .img-half img{width:auto;height:50%}
+/* line 22 : /Users/devric/Sites/project/tile/css/src/tile-image.styl */
+.title.vert .img-half img{width:100%;height:auto;}
 
-/* line 23 : /Users/devric/Sites/project/tile/css/src/tile-image.styl */
+/* line 31 : /Users/devric/Sites/project/tile/css/src/tile-image.styl */
 
-/* line 24 : /Users/devric/Sites/project/tile/css/src/tile-image.styl */
+/* line 32 : /Users/devric/Sites/project/tile/css/src/tile-image.styl */
 .title.quad.double .img-1-4 div:first-child{width:50%;height:50%}
 
-/* line 27 : /Users/devric/Sites/project/tile/css/src/tile-image.styl */
+/* line 35 : /Users/devric/Sites/project/tile/css/src/tile-image.styl */
 .title.quad.double .img-1-4 div{width:25%;height:25%;overflow:hidden;float:left;display:block}
 
 /* line 2 : /Users/devric/Sites/project/tile/css/src/tile-action.styl */
@@ -498,5 +498,22 @@ table {
 /* line 2 : /Users/devric/Sites/project/tile/css/src/tile-action.styl */
 .tile > a{width:100%;height:100%;padding:0;margin:0;overflow:hidden;display:block;}
 
-/* line 12 : /Users/devric/Sites/project/tile/css/src/tile-action.styl */
+/* line 13 : /Users/devric/Sites/project/tile/css/src/tile-action.styl */
 .tile > a:hover{box-shadow:inset 0 0 14px #fff,inset 0 0 2px #000}
+
+/* line 16 : /Users/devric/Sites/project/tile/css/src/tile-subpanel.styl */
+
+/* line 1 : /Users/devric/Sites/project/tile/css/src/tile-subpanel.styl */
+.tile .subpanel{width:100%;height:30px;display:block;position:absolute;overflow:hidden;left:0;bottom:0;}
+
+/* line 12 : /Users/devric/Sites/project/tile/css/src/tile-subpanel.styl */
+.tile .subpanel.full{height:100%}
+
+/* line 15 : /Users/devric/Sites/project/tile/css/src/tile-subpanel.styl */
+.tile .subpanel.half{height:50%}
+
+/* line 18 : /Users/devric/Sites/project/tile/css/src/tile-subpanel.styl */
+.tile .subpanel.title{height:60px}
+
+/* line 21 : /Users/devric/Sites/project/tile/css/src/tile-subpanel.styl */
+.tile .subpanel.none{height:0}
