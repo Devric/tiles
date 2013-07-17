@@ -1,23 +1,29 @@
-.tile .subpanel
-    width: 100%
-    height: 30px
-
-    display: block
-    position: absolute
-    overflow: hidden
-
-    left: 0
-    bottom: 0
-
-    &.full
-        height: 100%
-    
-    &.half
-        height: 50%
-
-    &.title
-        height: 60px
-
-    &.none
+.tile 
+    .subpanel
+        width: 100%
         height: 0
 
+        display: block
+        position: absolute
+        overflow: hidden
+
+        left: 0
+        bottom: 0
+
+    &:hover .subpanel
+        -webkit-transition : height 1s
+        -moz-transition    : height 1s
+        -o-transition      : height 1s
+        transition         : height 1s
+
+        &.full
+            height: 100%
+        
+        &.half
+            height: 50%
+
+        &.title
+            height: 60px
+
+        &.line
+            height: 30px

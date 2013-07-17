@@ -504,16 +504,21 @@ table {
 /* line 16 : /Users/devric/Sites/project/tile/css/src/tile-subpanel.styl */
 
 /* line 1 : /Users/devric/Sites/project/tile/css/src/tile-subpanel.styl */
-.tile .subpanel{width:100%;height:30px;display:block;position:absolute;overflow:hidden;left:0;bottom:0;}
 
-/* line 12 : /Users/devric/Sites/project/tile/css/src/tile-subpanel.styl */
-.tile .subpanel.full{height:100%}
+/* line 2 : /Users/devric/Sites/project/tile/css/src/tile-subpanel.styl */
+.tile .subpanel{width:100%;height:0;display:block;position:absolute;overflow:hidden;left:0;bottom:0}
 
-/* line 15 : /Users/devric/Sites/project/tile/css/src/tile-subpanel.styl */
-.tile .subpanel.half{height:50%}
+/* line 13 : /Users/devric/Sites/project/tile/css/src/tile-subpanel.styl */
+.tile:hover .subpanel{-webkit-transition:height 1s;-moz-transition:height 1s;-o-transition:height 1s;transition:height 1s;}
 
-/* line 18 : /Users/devric/Sites/project/tile/css/src/tile-subpanel.styl */
-.tile .subpanel.title{height:60px}
+/* line 19 : /Users/devric/Sites/project/tile/css/src/tile-subpanel.styl */
+.tile:hover .subpanel.full{height:100%}
 
-/* line 21 : /Users/devric/Sites/project/tile/css/src/tile-subpanel.styl */
-.tile .subpanel.none{height:0}
+/* line 22 : /Users/devric/Sites/project/tile/css/src/tile-subpanel.styl */
+.tile:hover .subpanel.half{height:50%}
+
+/* line 25 : /Users/devric/Sites/project/tile/css/src/tile-subpanel.styl */
+.tile:hover .subpanel.title{height:60px}
+
+/* line 28 : /Users/devric/Sites/project/tile/css/src/tile-subpanel.styl */
+.tile:hover .subpanel.line{height:30px}
