@@ -454,21 +454,24 @@ table {
 /* line 1 : /Users/devric/Sites/project/tile/css/src/tile-layout.styl */
 
 /* line 4 : /Users/devric/Sites/project/tile/css/src/tile-layout.styl */
-.tile{display:block;width:180px;height:180px;margin-bottom:10px;position:relative;overflow:hidden;float:left}
+.tile{display:block;width:180px;height:180px;margin-bottom:10px;position:relative;overflow:hidden;float:left;}
 
-/* line 17 : /Users/devric/Sites/project/tile/css/src/tile-layout.styl */
+/* line 19 : /Users/devric/Sites/project/tile/css/src/tile-layout.styl */
+.tile .wrap{height:85%;padding:15px;padding-bottom:0;overflow:hidden}
+
+/* line 27 : /Users/devric/Sites/project/tile/css/src/tile-layout.styl */
 .tile.double{width:370px}
 
-/* line 20 : /Users/devric/Sites/project/tile/css/src/tile-layout.styl */
+/* line 30 : /Users/devric/Sites/project/tile/css/src/tile-layout.styl */
 .tile.double.vert{width:180px;height:370px}
 
-/* line 24 : /Users/devric/Sites/project/tile/css/src/tile-layout.styl */
+/* line 34 : /Users/devric/Sites/project/tile/css/src/tile-layout.styl */
 .tile.quad{width:370px;height:370px}
 
-/* line 28 : /Users/devric/Sites/project/tile/css/src/tile-layout.styl */
+/* line 38 : /Users/devric/Sites/project/tile/css/src/tile-layout.styl */
 .tile.quad.double{width:750px;height:370px}
 
-/* line 32 : /Users/devric/Sites/project/tile/css/src/tile-layout.styl */
+/* line 42 : /Users/devric/Sites/project/tile/css/src/tile-layout.styl */
 .grid-sizer{width:10px}
 
 /* line 3 : /Users/devric/Sites/project/tile/css/src/tile-image.styl */
@@ -522,3 +525,32 @@ table {
 
 /* line 28 : /Users/devric/Sites/project/tile/css/src/tile-subpanel.styl */
 .tile:hover .subpanel.line{height:30px}
+
+/* line 30 : /Users/devric/Sites/project/tile/css/src/grid.styl */
+
+/* line 1 : /Users/devric/Sites/project/tile/css/src/grid.styl */
+.grid{margin:0;padding:0;float:left;position:relative;overflow:hidden;}
+
+/* line 10 : /Users/devric/Sites/project/tile/css/src/grid.styl */
+
+/* line 11 : /Users/devric/Sites/project/tile/css/src/grid.styl */
+.grid.half.one{width:50%}
+
+/* line 14 : /Users/devric/Sites/project/tile/css/src/grid.styl */
+
+/* line 15 : /Users/devric/Sites/project/tile/css/src/grid.styl */
+.grid.third.one{width:33.3%}
+
+/* line 18 : /Users/devric/Sites/project/tile/css/src/grid.styl */
+.grid.third.two{width:66%}
+
+/* line 21 : /Users/devric/Sites/project/tile/css/src/grid.styl */
+
+/* line 22 : /Users/devric/Sites/project/tile/css/src/grid.styl */
+.grid.fourth.one{width:25%}
+
+/* line 25 : /Users/devric/Sites/project/tile/css/src/grid.styl */
+.grid.fourth.two{width:50%}
+
+/* line 28 : /Users/devric/Sites/project/tile/css/src/grid.styl */
+.grid.fourth.three{width:75%}
