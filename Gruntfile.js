@@ -33,6 +33,14 @@ module.exports = function(grunt) {
         }
     }
 
+    // grunt @include
+    , directives : {
+        dist: {
+            src: ['js/tile/tile-build.js']
+            , dest: 'js/tile/tile.js'
+        }
+    }
+
     // concate and generate stylus
     , stylus : {
         compile: {
@@ -64,6 +72,10 @@ module.exports = function(grunt) {
                 interrupt: true
             }
         }
+        , tile : {
+            files : 'js/tile/**/*.js'
+            , tasks : ['directives']
+        }
      }
 });
 
@@ -74,6 +86,8 @@ module.exports = function(grunt) {
 
    grunt.loadNpmTasks('grunt-contrib-watch');
    grunt.loadNpmTasks('grunt-contrib-clean');
+
+   grunt.loadNpmTasks('grunt-directives');
 
   // Default task.
   grunt.registerTask('default', ['clean']);
